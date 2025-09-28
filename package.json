@@ -1,0 +1,20 @@
+{
+  "name": "multi-site-generator",
+  "version": "1.0.0",
+  "description": "Generate multiple Next.js sites from CSV",
+  "main": "generate-and-build.js",
+  "scripts": {
+    "start": "node generate-and-build.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "csv-parse": "^6.1.0",
+    "fs-extra": "^11.3.2",
+    "next": "^15.5.4",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  }
+}
